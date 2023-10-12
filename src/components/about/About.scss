@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "unbounded-light";
+  src: url("../../../public/Unbounded.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "unbounded-bold";
+  src: url("../../../public/Unbounded-Bold.ttf");
+}
+
+.contact {
+  opacity: 0;
+  transition: 0.75s ease-in-out;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+  background: rgba($color: black, $alpha: 0.5);
+  backdrop-filter: blur(50px);
+  padding: 0 10rem;
+
+  &__infos {
+    text-wrap: balance;
+    color: white;
+    font-size: 1.5rem;
+    padding-right: 6rem;
+
+    p:first-of-type {
+      font-family: "unbounded-light";
+      font-style: italic;
+      font-size: 2.5rem;
+    }
+
+    a {
+      font-style: italic;
+      color: white;
+      font-family: "unbounded-bold";
+      font-size: 1.3rem;
+      color: #9cc1da;
+    }
+  }
+
+  img {
+    width: auto;
+    height: 75vh;
+    filter: grayscale(1);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contact {
+    opacity: 0;
+    transition: 0.75s ease-in-out;
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+    background: rgba($color: black, $alpha: 0.5);
+    backdrop-filter: blur(50px);
+    padding: 1.5rem;
+
+    &__infos {
+      text-wrap: balance;
+      color: white;
+      font-size: 1rem;
+      padding: 0;
+      overflow-y: scroll;
+
+      p:first-of-type {
+        font-family: "unbounded-light";
+        font-style: italic;
+        font-size: 1.5rem;
+      }
+
+      a {
+        font-style: italic;
+        color: white;
+        font-family: "unbounded-bold";
+        font-size: 0.9rem;
+        color: #9cc1da;
+      }
+    }
+
+    img {
+      width: 100vw;
+      height: auto;
+      filter: grayscale(1);
+    }
+  }
+}

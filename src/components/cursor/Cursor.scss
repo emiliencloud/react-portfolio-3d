@@ -1,0 +1,14 @@
+.cursor {
+  width: 60px;
+  height: 60px;
+  border: solid 2px #F6F3EA;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  animation: ease;
+  background: rgba($color: #000000, $alpha: 0.1);
+  backdrop-filter: blur(15px);
+  z-index: 1000;
+  pointer-events: none;
+}
