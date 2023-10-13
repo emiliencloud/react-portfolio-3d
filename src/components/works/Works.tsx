@@ -32,6 +32,12 @@ function Works() {
         wheelMove(e);
       }
     });
+
+    window.addEventListener("touchmove", (e) => {
+      if (window.scrollY >= window.innerHeight) {
+        wheelMove(e);
+      }
+    });
   });
 
   const variants = {
