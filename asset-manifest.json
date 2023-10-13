@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio-3d/static/css/main.79f2b2ab.css",
-    "main.js": "/react-portfolio-3d/static/js/main.b57c0eba.js",
+    "main.js": "/react-portfolio-3d/static/js/main.23c73108.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio-3d/static/js/787.a2cb61a6.chunk.js",
     "static/media/gestion_prestige.png": "/react-portfolio-3d/static/media/gestion_prestige.67faef27ec73445a4e22.png",
     "static/media/japan_scene.png": "/react-portfolio-3d/static/media/japan_scene.98fd7b5b40be98d47011.png",
@@ -18,11 +18,11 @@
     "static/media/logo_emiliencloud.svg": "/react-portfolio-3d/static/media/logo_emiliencloud.2182f8d6d896e1ed15106c1615ace782.svg",
     "index.html": "/react-portfolio-3d/index.html",
     "main.79f2b2ab.css.map": "/react-portfolio-3d/static/css/main.79f2b2ab.css.map",
-    "main.b57c0eba.js.map": "/react-portfolio-3d/static/js/main.b57c0eba.js.map",
+    "main.23c73108.js.map": "/react-portfolio-3d/static/js/main.23c73108.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio-3d/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79f2b2ab.css",
-    "static/js/main.b57c0eba.js"
+    "static/js/main.23c73108.js"
   ]
 }
